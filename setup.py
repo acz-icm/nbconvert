@@ -61,7 +61,7 @@ package_data = {
 
 
 notebook_css_version = '4.0.0-dev'
-css_url = "https://cdn.jupyter.org/notebook/%s/style/style.min.css" % notebook_css_version
+css_url = "http://cdn.jupyter.org/notebook/%s/style/style.min.css" % notebook_css_version
 
 class FetchCSS(Command):
     description = "Fetch Notebook CSS from Jupyter CDN"
